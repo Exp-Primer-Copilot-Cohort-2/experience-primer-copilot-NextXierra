@@ -2,7 +2,7 @@ function skillsmember() {
     return {
         restrict: 'E',
         templateUrl: 'app/components/member/member.html',
-        controller: 'MemberController',
+        controller: 'SkillsMemberController',
         controllerAs: 'vm',
         bindToController: true,
         scope: {
